@@ -32,6 +32,9 @@ a {
   -o-transition: 0.5s all;
   text-decoration: none;
 }  
+p{
+    margin-bottom: 0 !important;
+}
 
 .top_header
 {
@@ -42,6 +45,14 @@ a {
 .cnt
 {
     color: white;
+}
+
+.social
+{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
 }
 
 .header
@@ -215,6 +226,8 @@ cursor:pointer;
 {
     text-align: center;
     line-height:20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .boxs .p1
@@ -222,11 +235,13 @@ cursor:pointer;
     font-weight:bold;
     font-size: 25px;
     color: #0805A7;
+    padding-top: 30px;
 }
 .p2
 {
     color: #0048FF;
     font-weight: 500;
+    padding-top: 10px;
 }
 
 .abt
@@ -235,5 +250,97 @@ cursor:pointer;
     color: white;
     background-color: #497CFF;
     border-radius: 6px;
-    padding:15px 35px;
+    padding:9px 15px;
+}
+
+.department
+{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.department h1
+{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.department h4
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dep
+{
+    border: 2px solid #e4dddd;
+    border-radius: 10px;
+    width:20% !important;
+    margin-left: 10px;
+    box-shadow:2px 2px 2px #c8c8c9;
+}
+
+.dep1,.dep2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.department p
+{
+    margin-top: 10px;
+}
+
+.department a
+{
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.dep img
+{
+    width:75px;
+    padding-bottom: 20px;
+}
+
+.dep p
+{
+    font-size: 15px;
+}
+
+.features
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.programs
+{
+    background-color: #EEF2FF;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.programs h2
+{
+    font-weight: bold;
+}
+
+.programs h4
+{
+    font-size: 15px;
+}
+
+.pro
+{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
