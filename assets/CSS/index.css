@@ -34,7 +34,7 @@ a {
   text-decoration: none;
 }  
 p{
-    margin-bottom: 0 !important;
+    margin-bottom: 7px !important;
 }
 
 .top_header
@@ -147,7 +147,7 @@ font-family:arial;
 {
 font-size:20px;
 letter-spacing:2px;
-margin-bottom:15px;
+padding-bottom:50px;
 color:white;
 }
 
@@ -155,7 +155,7 @@ color:white;
 {
 font-size:60px;
 line-height:70px;
-margin-bottom:20px;
+margin-bottom:30px;
 font-weight: 600;
 color: white;
 }
@@ -453,6 +453,16 @@ cursor:pointer;
     border-radius: 30px;
     width: 49% !important;
     height: 450px !important;
+    padding: 25px;
+}
+
+.placement button
+{
+    padding: 10px 15px;
+    color: white;
+    background-color: #0048FF;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .placement img
@@ -460,11 +470,21 @@ cursor:pointer;
     width: 200px;
 }
 
+.details_coll
+{
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
 .detailscontent
 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: -45px;
 }
 
 .detailshead h2
@@ -472,7 +492,6 @@ cursor:pointer;
     font-weight: bolder;
     font-size: 25px;
     margin-top: 10px;
-    padding-inline-start: 25px;
 }
 
 .detp1
@@ -487,8 +506,7 @@ cursor:pointer;
     background-color: white;
     box-shadow: 1px 2px 2px 1px #c8c8c9;
     padding:20px 20px;
-    margin-top:20px;
-    height: 147px;
+    height: 125px;
     width: 180px;
     border-radius: 20px;
     text-align: center;
@@ -497,4 +515,189 @@ cursor:pointer;
 .detailscontent p 
 {
     font-weight:600;
+}
+
+.news
+{
+    background-color: #EEF2FF;
+    border-radius: 30px;
+    width: 49% !important;
+    height: 450px !important;
+    padding: 25px;
+}
+
+.newsdet
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 2px 2px 1px #c8c8c9;
+    padding:20px 20px;
+    height: 65px;
+    border-radius: 15px;
+    margin-top: 9px
+}
+
+.date p
+{
+    font-size: 20px;
+    color: black;
+}
+
+.newsdet h3
+{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.newsdet h4
+{
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 6px;
+    font-size: 19px;
+}
+
+.newsdet a
+{
+    text-decoration: none;
+}
+
+.newsdet p
+{
+    font-size: 13px;
+}
+
+.btn
+{
+    text-align: right;
+}
+
+.date
+{
+    display: flex;
+    align-items: center;
+}
+
+.month
+{
+    text-align: center;
+}
+
+.news button
+{
+    padding: 10px 15px;
+    color: white;
+    background-color: #0048FF;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.campus
+{
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.campus p
+{
+    margin-bottom: 0;
+}
+
+.studentsay
+{
+    background-color: #EEF2FF;
+    border-radius: 30px;
+    width: 49% !important;
+    height: 375px !important;
+    padding: 25px;
+}
+
+.heading h2
+{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 10px
+}
+
+.student1
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px 1px #c8c8c9;
+    padding:20px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.student1 h3
+{
+    font-size:25px;
+    text-align: left;
+    margin-bottom:0;
+}
+.student1 p
+{
+    font-size: 14px;
+}
+
+.camcontent
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+.gallery
+{
+    background-color: #EEF2FF;
+    border-radius: 30px;
+    width: 49% !important;
+    height: 375px !important;
+    padding: 25px;
+}
+
+.gallery img
+{
+    width: 100%;
+    height: 100px;
+}
+
+.images
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.images p
+{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.gallery button
+{
+    padding: 10px 20px;
+    color: white;
+    background-color: #0048FF;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.person img
+{
+    width:15%;
 }
