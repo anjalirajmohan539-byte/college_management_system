@@ -129,7 +129,7 @@ position:relative;
 width:100%;
 padding:0 !important;
 background: linear-gradient(to right,#06194B,rgb(13, 60, 177,0.3)), url("../IMG/banner_img.png");
-height: 100vh;
+height: 80vh;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -153,7 +153,7 @@ color:white;
 
 .banner_content h1
 {
-font-size:60px;
+font-size:70px;
 line-height:70px;
 margin-bottom:30px;
 font-weight: 600;
@@ -257,7 +257,7 @@ cursor:pointer;
 .department
 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
 
 }
 
@@ -298,11 +298,11 @@ cursor:pointer;
 .department a
 {
     text-decoration: none;
-    color: black;
-    float: left;
+    color: #0048FF;
     margin-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
+    font-size: 13px;
 }
 
 .dep img
@@ -645,6 +645,13 @@ cursor:pointer;
 .student1 p
 {
     font-size: 14px;
+    text-align: left;
+}
+
+.student1 span
+{
+    font-size: 30px;
+    color: black;
 }
 
 .camcontent
@@ -700,4 +707,119 @@ cursor:pointer;
 .person img
 {
     width:15%;
+}
+
+.student
+{
+    display: flex;
+}
+
+.stdetails
+{
+    margin-left: 20px;
+}
+
+.stdetails p
+{
+    margin-bottom: 0 !important;
+}
+
+.lastbanner
+{
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.getintouch
+{
+    background-color: #EEF2FF;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.getintouch h2
+{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.contactlast h4
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contactlast p
+{
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.contactlast
+{
+    margin-top: 50px;
+}
+
+.input 
+{
+    font-size: 10px;
+}
+
+.cnl
+{
+    display: flex;
+}
+
+.cnl img
+{
+    margin-right: 15px;
+}
+
+.footer img
+{
+    width: 40%;
+}
+
+.links
+{
+    display: grid;
+}
+
+.mainfooter
+{
+    background: linear-gradient(to right, #080694 , #030241);
+    height: 50vh;
+    color: white;
+}
+
+.mainfooter a
+{
+    text-decoration: none;
+    margin-top: 7px;
+    color: white;
+}
+
+.links h3
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.newsletter h3
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.last
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-size: 13px;
+    text-align: center;
 }
