@@ -316,3 +316,102 @@ span
 {
     font-weight: bold;
 }
+
+.achieve_content
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E9F0FF;
+    border-radius: 10px;
+}
+
+.achievements
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.achieve_content h2
+{
+    font-weight: bold;
+    color: #0b2d83;
+}
+
+.achieve
+{
+    padding: 15px;
+}
+
+.achievements h1
+{
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.imgcam img
+{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.imgcam
+{
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.facilities
+{
+    position: relative;
+    box-shadow:2px 2px 2px #c8c8c9;
+    border-radius: 25px;
+    padding: 0;
+}
+
+.campus
+{
+    display: flex;
+    gap: 20px;
+}
+
+.campus2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    gap: 20px;
+}
+
+.fc
+{
+    margin: 15px 0;
+}
+
+.fc h4
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.fc p 
+{
+    font-size: 13px;
+}
+
+.Accreditaion
+{
+    margin-top: 50px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.values
+{
+    background-color: #EEF2FF;
+    border-radius: 30px;
+    width: 49% !important;
+    height: 450px !important;
+}
