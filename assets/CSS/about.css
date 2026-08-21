@@ -317,6 +317,11 @@ span
     font-weight: bold;
 }
 
+.icons img
+{
+    margin-bottom:20px;
+}
+
 .achieve_content
 {
     display: flex;
@@ -413,5 +418,191 @@ span
     background-color: #EEF2FF;
     border-radius: 30px;
     width: 49% !important;
-    height: 450px !important;
+    height: 327px !important;
+}
+
+.fullcontent
+{
+    display: flex;
+}
+
+.contain
+{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.value
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.core
+{
+    background-color: white;
+    box-shadow: 1px 2px 2px 1px #c8c8c9;
+    padding: 27px 20px;
+    margin-top: 20px;
+    height: 167px;
+    width: 145px;
+    border-radius: 20px;
+}
+
+.core h4
+{
+    font-size: 18px;
+    padding-top: 15px
+}
+
+.values h3
+{
+    margin-top: 30px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.camcontent
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.student1 span
+{
+    font-size: 30px;
+    color: black;
+}
+
+.student1
+{
+    background-color: white;
+    box-shadow: 1px 2px 13px 1px #c8c8c9;
+    padding:20px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.student
+{
+    display: flex;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.stdetails
+{
+    margin-left: 20px;
+}
+
+.stdetails p
+{
+    margin-bottom: 0 !important;
+}
+
+.success
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 9%;
+}
+
+.contactus
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactcon
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 142px;
+    gap: 60px;
+    background-color: #C5D3FF;
+    width: 88%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contactus1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deta
+{
+    text-align: left;
+}
+
+.deta h3
+{
+    font-weight: bold;
+}
+
+.contactus1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img
+{
+    width: 40%;
+}
+
+.links
+{
+    display: grid;
+}
+
+.mainfooter
+{
+    background: linear-gradient(to right, #080694 , #030241);
+    height: 50vh;
+    color: white;
+}
+
+.mainfooter a
+{
+    text-decoration: none;
+    margin-top: 7px;
+    color: white;
+}
+
+.links h3
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.newsletter h3
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.last
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.hh
+{
+    margin-bottom: 30px;
 }
