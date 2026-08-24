@@ -218,3 +218,78 @@ span
 {
     margin-bottom: 20px;
 }
+
+.Criteriacon a
+{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.Criteria li
+{
+    text-align:none;
+    margin-top: 20px;
+    display: flex;
+}
+
+.Criteriacon 
+{
+    display: flex;
+    gap: 20px;
+}
+
+.Criteriacon h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.heading
+{
+    display: flex;
+    
+}
+
+.heading img
+{
+    width:30px;
+    height:30px;
+}
+
+.icon
+{
+    display: flex;
+}
+
+.icon img
+{
+    width: 30px;
+}
+
+.Criteria
+{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 27px 20px;
+    margin-top: 20px;
+    height:  329px;
+    width: 145px;
+    border-radius: 20px;
+}
+
+.date
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date h4
+{
+    font-size: 17px;
+}
+
+.date p
+{
+    font-size: 12px;
+}
