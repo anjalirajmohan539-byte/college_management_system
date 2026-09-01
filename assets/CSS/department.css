@@ -111,6 +111,7 @@ padding: 0 13px 0 0;
 
 .menu
 {
+    font-weight:600;
     font-size: 14px;
     display: flex;
     justify-content: space-evenly;
@@ -130,7 +131,7 @@ position:relative;
 width:100%;
 padding:0 !important;
 background: linear-gradient(to right,#06194B,rgb(13, 60, 177,0.3)), url("../IMG/banner_img.png");
-height: 65vh;
+height: 70vh;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -207,62 +208,6 @@ span
     bottom: -51px;
 }
 
-.admission h2
-{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.admission img
-{
-    margin-bottom: 20px;
-}
-
-.Criteriacon a
-{
-    text-decoration: none;
-    margin-top: 20px;
-}
-
-.Criteria li
-{
-    text-align:none;
-    margin-top: 20px;
-    display: flex;
-}
-
-.Criteriacon 
-{
-    display: flex;
-    gap: 20px;
-}
-
-.Criteriacon h2
-{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
-.heading
-{
-    display: flex;
-    
-}
-
-.heading img
-{
-    width:30px;
-    height:30px;
-}
-
-.icon
-{
-    display: flex;
-    margin-bottom: 8px;
-    gap: 8px;
-}
-
 .icons 
 {
     text-align: center;
@@ -276,122 +221,72 @@ span
     margin-top: 10px;
 }
 
-.Criteria
+.imgcam img
 {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 30px 30px;
-    margin-top: 20px;
-    height:  329px;
-    width: 145px;
-    border-radius: 20px;
+    width: 100%;
+    
 }
 
-.date
+.imgcam
+{
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+    /* border-radius: 20px; */
+    border-radius: 25px 25px 0 0;
+}
+
+.facilities
+{
+    position: relative;
+    box-shadow:2px 2px 2px #c8c8c9;
+    border-radius: 25px;
+    padding: 0;
+}
+
+.campus
 {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.date h4
-{
-    font-size: 17px;
-}
-
-.date p
-{
-    font-size: 12px;
-}
-
-.contacticon
-{
-    display: flex;
-    margin-bottom: 13px;
-    gap: 15px;
-}
-
-.Criteria button
-{
-    padding: 5px 17px;
-    background-color: #0048FF;
-    color: white;
-    border-radius: 8px;
-}
-
-.college
-{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #AFC6FF;
-    padding: 20px 30px;
-    border-radius: 21px;
-}
-
-.college button
-{
-    padding: 5px 22px;
-    border-radius: 8px;
-    border: none;
-    color: #0048FF;
-    margin-top: 25px;
-}
-
-.college h3
-{
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.mainfooter
-{
-    background: linear-gradient(to right, #080694 , #030241);
-    height: 50vh;
-    color: white;
-}
-
-.footer img
-{
-    width: 40%;
-}
-
-.links
-{
-    display: grid;
-}
-
-
-.mainfooter a
-{
-    text-decoration: none;
-    margin-top: 7px;
-    color: white;
-}
-
-.links h3
-{
-    margin-top: 15px;
-    margin-bottom: 30px;
-    font-weight: bold;
-}
-
-.newsletter h3
-{
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
-
-.last
-{
-    color: white;
-    background-color: black;
-    padding: 15px;
-    font-size: 13px;
+    gap: 20px;
     text-align: center;
 }
 
-.hh
+.fc
 {
-    margin-bottom: 30px;
+    margin: 15px 0;
+}
+
+.fc h4
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.fc p 
+{
+    font-size: 13px;
+}
+
+.departments button
+{
+    padding: 10px 38px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #0048FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.Department h2
+{
+    font-weight: bold;
+}
+
+.Experienced
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
 }
