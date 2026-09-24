@@ -34,9 +34,8 @@ a {
   text-decoration: none;
 }  
 p{
-    margin-bottom: 7px !important;
+    margin-bottom: 0 !important;
 }
-
 .top_header
 {
     background-color: #06194B;
@@ -216,7 +215,7 @@ cursor:pointer;
     flex: 0 0 70% !important;
 }
 
-.date
+.datte
 {
     background-color: #d8e2f9;
     text-align: center;
@@ -228,9 +227,277 @@ cursor:pointer;
 .time
 {
     display: flex;
+    gap: 28px;
+    margin-top: 10px;
 }
 
 .fest_details h2
 {
     font-weight: bold;
+}
+
+        .calendar {
+            width: 500px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+
+        /* Header */
+        .calendar-header {
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 25px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .calendar-header h2 {
+            font-size: 17px;
+            font-weight: 500;
+            color: #888;
+        }
+
+        .nav-btn {
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 25px;
+            color: #111;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.2s;
+        }
+
+        .nav-btn:hover {
+            transform: scale(1.2);
+        }
+
+        /* Calendar body */
+        .calendar-body {
+            padding: 12px 20px 25px;
+        }
+
+        /* Week names */
+        .weekdays {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            margin-bottom: 8px;
+        }
+
+        .weekday {
+            text-align: center;
+            font-size: 9px;
+            font-weight: 500;
+            color: #111;
+            padding: 5px 0;
+        }
+
+        /* Dates */
+        .dates {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            row-gap: 7px;
+        }
+
+        .date {
+            width: 34px;
+            height: 34px;
+            margin: auto;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            color: #111;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .date:hover {
+            background: #eeeeee;
+        }
+
+        /* Today */
+        .date.today {
+            background: #1455ff;
+            color: white;
+        }
+
+        .date.today:hover {
+            background: #1455ff;
+        }
+
+        /* User selected date */
+        .date.selected {
+            background: #ff3b30;
+            color: white;
+        }
+
+        .date.selected:hover {
+            background: #ff3b30;
+        }
+
+        /* Empty dates */
+        .date.empty {
+            cursor: default;
+        }
+
+        .date.empty:hover {
+            background: transparent;
+        }
+
+        @media (max-width: 480px) {
+            .calendar {
+                width: 95%;
+            }
+
+            .calendar-body {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+
+
+.eventcalender
+{
+    border: 2px solid #96B4FF;
+    padding: 10px;
+    position: relative;
+    transform: translateY(20px);
+    border-radius: 18px;
+}
+
+.eventannouncement
+{
+    position: relative;
+    transform: translateY(181px);
+    border: 2px solid #96B4FF;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.eventcategory
+{
+    position: relative;
+    transform: translateY(94px);
+    border: 2px solid #96B4FF;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.Category
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding: 10px;
+}
+
+.categoryicon
+{
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
+
+.Category p
+{
+    margin-bottom: 0px !important;
+}
+
+.num
+{
+    background-color: #AFC6FF;
+    padding: 8px;
+    border-radius: 54px;
+    width: 8%;
+    height: 37px;
+    text-align: center;
+    font-weight: bold;
+    color: #080694;
+}
+
+.eventannouncement p
+{
+    margin-bottom: 0 !important;
+}
+
+.updates a
+{
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+}
+
+.lastdate
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.announcement
+{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.eventannouncement h4
+{
+    margin-bottom: 0 !important;
+}
+
+.icondiv
+{
+    background-color: #AFC6FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fest1
+{
+    padding: 10px 30px;
+    border: none;
+    background-color: #B7CBFF;
+    color: #080694;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.fest2
+{
+    background-color: #AFC6FF;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #5D8BFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.fest3
+{
+    background-color: #080694;
+    padding: 8px 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.festbtn
+{
+    margin-bottom: 10px;
 }
